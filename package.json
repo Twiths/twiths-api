@@ -1,0 +1,33 @@
+{
+    "name": "twiths-api",
+    "version": "1.0.0",
+    "description": "Twith API",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kallyas/twiths-api.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kallyas/twiths-api/issues"
+    },
+    "homepage": "https://github.com/kallyas/twiths-api#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "helmet": "^4.6.0",
+        "mongoose": "^5.12.15",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.2",
+        "nodemon": "^2.0.7",
+        "path": "^0.12.7",
+        "ratelimit": "^0.0.4"
+    }
+}
